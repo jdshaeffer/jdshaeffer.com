@@ -8,10 +8,10 @@ const Index = () => {
 		<>
 			<Header />
 			<Content>
-				<h2>hey, i'm j.d.</h2>
-				<p>6'9" full stack javascript developer, avid traveler. working remotely, currently in utah.</p>
+				<h2>hey, i&apos;m j.d.</h2>
+				<p>6&apos;9&quot; full stack javascript developer, avid traveler. working remotely, currently in utah.</p>
 				<Img src='/hwy87.jpg' alt='hiking underneath highway 87 on the arizona trail' />
-				<p>i'm glad you're here, stay as long as you like.</p>
+				<p>i&apos;m glad you&apos;re here, stay as long as you like.</p>
 				<p>
 					learn more about me <ContentLinkText href='/about' name='here' />,
 					read my <ContentLinkText href='/blog' name='blog' />,
