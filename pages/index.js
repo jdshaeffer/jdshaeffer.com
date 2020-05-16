@@ -1,8 +1,14 @@
 import Header from '../components/Header';
+import Content from '../components/Content';
 
 const Index = () => {
 	return (
-		<Header />
+		<>
+			<Header />
+			<Content>
+        index index index
+			</Content>
+		</>
 	);
 };
 

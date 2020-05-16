@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const ContentWrapper = styled.div`
   color: #FAE0C5;
@@ -11,13 +12,17 @@ const ContentChild = styled.div`
 `;
 
 const Content = props => {
-  return (
-    <ContentWrapper>
-      <ContentChild>
-        {props.children}
-      </ContentChild>
-    </ContentWrapper>
-  );
-}
+	return (
+		<ContentWrapper>
+			<ContentChild>
+				{props.children}
+			</ContentChild>
+		</ContentWrapper>
+	);
+};
+
+Content.propTypes = {
+	children: PropTypes.any
+};
 
 export default Content;
