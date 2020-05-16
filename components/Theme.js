@@ -9,7 +9,6 @@ const theme = createMuiTheme({
 		}
 	},
 	typography: {
-		color: '#FAE0C5',
 		fontFamily: 'Libre Baskerville',
 		button: {
 			textTransform: 'none',
