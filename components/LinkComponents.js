@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 
 const StyledLink = styled.a`
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: #FAE0C5;
   margin-left: 1%;
   margin-right: 1%;
 `;

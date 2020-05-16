@@ -9,10 +9,11 @@ const theme = createMuiTheme({
 		}
 	},
 	typography: {
+		color: '#FAE0C5',
 		fontFamily: 'Libre Baskerville',
 		button: {
 			textTransform: 'none',
-			border: '2px solid #000000'
+			border: '2px solid #FAE0C5'
 		},
 		body1: {
 			flexGrow: 1

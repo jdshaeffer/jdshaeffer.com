@@ -14,7 +14,7 @@ class MyDocument extends Document {
 				<Head>
 					<link href='https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap' rel='stylesheet' />
 				</Head>
-				<body>
+				<body style={{backgroundColor: '#21323F'}}>
 					<Main />
 					<NextScript />
 				</body>
