@@ -13,13 +13,13 @@ const Header = () => (
 			</Link>
 			<Typography />  {/* for flex grow changes */}
 			<Typography variant='h6'>
-				<LinkText href='/' name='About' />
+				<LinkText href='/about' name='about' />
 			</Typography>
 			<Typography variant='h6'>
-				<LinkText href='/' name='Posts' />
+				<LinkText href='/blog' name='blog' />
 			</Typography>
 			<Typography variant='h6'>
-				<LinkText href='/' name='Portfolio' />
+				<LinkText href='/portfolio' name='portfolio' />
 			</Typography>
 		</Toolbar>
 	</AppBar>
