@@ -10,9 +10,9 @@ class MyDocument extends Document {
 
 	render() {
 		return (
-			<Html lang='en' style={{fontFamily: 'Jost, sans-serif'}}>
+			<Html lang='en' style={{fontFamily: 'Libre Baskerville, serif'}}>
 				<Head>
-					<link href='https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap' rel='stylesheet' />
+					<link href='https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap' rel='stylesheet' />
 				</Head>
 				<body>
 					<Main />

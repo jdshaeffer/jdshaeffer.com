@@ -1,6 +1,7 @@
+import Head from 'next/head';
 import { useEffect, Fragment } from 'react';
 import PropTypes from 'prop-types';
-import Footer from '../components/Footer';
+import Theme from '../components/Theme';
 
 export default function MyApp({ Component, pageProps }) {
 	useEffect(() => {
@@ -13,9 +14,11 @@ export default function MyApp({ Component, pageProps }) {
 	
 	return (
 		<Fragment>
+			<Head>
+				<title>j.d. shaeffer</title>
+			</Head>
 			<Theme>
 				<Component {...pageProps} />
-				<Footer />
 			</Theme>
 		</Fragment>
 	);
