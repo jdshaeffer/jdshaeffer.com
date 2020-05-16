@@ -10,6 +10,10 @@ const StyledLink = styled.a`
   margin-right: 1%;
 `;
 
+const ContentLink = styled.a`
+	color: #FAE0C5;
+`;
+
 const LinkButton = ({href, name}) => {
 	return (
 		<Link href={href} passHref>
@@ -30,6 +34,16 @@ const LinkText = ({href, name}) => {
 	);
 };
 
+const ContentLinkText = ({href, name}) => {
+	return (
+		<Link href={href} passHref>
+			<ContentLink>
+				{name}
+			</ContentLink>
+		</Link>
+	);
+};
+
 LinkButton.propTypes = {
 	href: PropTypes.any,
 	name: PropTypes.any
@@ -40,4 +54,9 @@ LinkText.propTypes = {
 	name: PropTypes.any
 };
 
-export { LinkButton, LinkText };
+ContentLinkText.propTypes = {
+	href: PropTypes.any,
+	name: PropTypes.any
+};
+
+export { LinkButton, LinkText, ContentLinkText };

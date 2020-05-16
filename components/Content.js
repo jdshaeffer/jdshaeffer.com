@@ -2,13 +2,15 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const ContentWrapper = styled.div`
-  color: #FAE0C5;
+	color: #FAE0C5;
+  font-size: ${props => props.fontSize || '18px'};
   margin-top: 150px;
 `;
 
+// width should be 90% at smaller screens underneath below width
 const ContentChild = styled.div`
-  width: 60%;
-  margin: 0 auto;
+  width: 800px;
+	margin: 0 auto;
 `;
 
 const Content = props => {
