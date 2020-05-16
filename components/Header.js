@@ -4,7 +4,7 @@ import { LinkText } from './LinkComponents';
 import UnderlinedText from '../components/UnderlinedText';
 
 const Header = () => (
-	<AppBar color='transparent' elevation={0}>
+	<AppBar color='primary' elevation={0}>
 		<Toolbar>
 			<Link href='/'>
 				<a>

@@ -6,7 +6,75 @@ const About = () => {
 		<>
 			<Header />
 			<Content>
-        should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
+				<p>
+					should put something poetic here. anyways, i&apos;m 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, leaves on trees
+				</p>
 			</Content>
 		</>
 	);

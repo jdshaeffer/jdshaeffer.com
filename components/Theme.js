@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 const theme = createMuiTheme({
 	palette: {
 		primary: {
+			main: '#21323F'
+		},
+		secondary: {
 			main: '#000000'
 		}
 	},
