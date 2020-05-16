@@ -1,17 +1,13 @@
 import Header from '../components/Header';
-import { ContentWrapper, Content } from '../components/StyledDivs';
-
-const content = 'asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf asdfa sdf asdf asdf asdf asf asdf asfd asfd asfd asf ';
+import Content from '../components/Content';
 
 const About = () => {
 	return (
 		<>
 			<Header />
-			<ContentWrapper>
-				<Content>
-					{content}
-				</Content>
-			</ContentWrapper>
+      <Content>
+        should put something poetic here. anyways, i'm 24 yrs old, i write software for a living, i enjoy walking, movies, books, mellow indie music, clouds, and leaves on trees
+      </Content>
 		</>
 	);
 };
