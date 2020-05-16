@@ -9,22 +9,22 @@ const aboutContent = (
 		<Content>
 			<h2>about</h2>
 			<p>
-				so yeah, my name is j.d.
+				my name is j.d.
 			</p>
 			<Img
 				src='/grandcanyon.jpg'
 				alt='portrait at grand canyon'
 			/>
 			<ul>
-				<li>i was born in 1995 and grew up in phoenix, az.</li>
-				<li>started coding in high school where i made text-based adventure games in java.</li>
+				<li>i grew up in phoenix, az.</li>
 				<li>served a 2-year mission for my church in asuncion, paraguay.</li>
-				<li>went to asu in tempe, az and graduated with a bs in computer science.</li>
-				<li>trying to figure things out.</li>
+				<li>thru-hiked the appalachian trail.</li>
+				<li>graduated from asu with a bs in computer science.</li>
 			</ul>
 			<h2>coding</h2>
 			<ul>
-				<li>i've been doing web development professionaly for a couple years now.</li>
+				<li>i started in high school where i made text-based adventure games in java.</li>
+				<li>been doing web development professionaly for a couple years now.</li>
 				<li>i enjoy html, css, javascript, react.js (with next.js) and node.js.</li>
 				<li>i love editing in vscode with vim keybindings.</li>
 				<li>check out my <ContentLinkText href='/portfolio' name='portfolio' />.</li>
