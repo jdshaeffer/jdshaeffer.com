@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
-import { LinkButton, LinkText } from './LinkComponents';
+import { LinkText } from './LinkComponents';
 import UnderlinedText from '../components/UnderlinedText';
 
 const Header = () => (
