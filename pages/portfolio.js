@@ -6,7 +6,7 @@ const PortfolioIndex = () => {
 		<>
 			<Header />
 			<Content>
-        portfolio portfolio portfolio 
+				<h2>portfolio</h2>
 			</Content>
 		</>
 	);
