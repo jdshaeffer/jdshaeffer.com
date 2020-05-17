@@ -24,7 +24,9 @@ const aboutContent = (
 			<h2>coding</h2>
 			<ul>
 				<li>i started in high school where i made text-based adventure games in java.</li>
-				<li>been doing web development professionaly for a couple years now.</li>
+				<li>
+					been doing web development professionaly for a couple years - see my <ContentLinkText href='/resume' name='resume' />.
+				</li>
 				<li>i enjoy html, css, javascript, react.js (with next.js) and node.js.</li>
 				<li>i love editing in vscode with vim keybindings.</li>
 				<li>check out my <ContentLinkText href='/portfolio' name='portfolio' />.</li>
