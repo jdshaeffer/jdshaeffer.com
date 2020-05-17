@@ -32,6 +32,10 @@ const aboutContent = (
 				<li>check out my <ContentLinkText href='/portfolio' name='portfolio' />.</li>
 			</ul>
 			<h2>hiking</h2>
+			<Img
+				src='/katahdin.JPG'
+				alt='summit of mt katahdin'
+			/>
 			<ul>
 				<li>2016-2017 sections of the pacific crest trail.</li>
 				<li>2018 appalachian trail - 2190 miles in 103 days.</li>
