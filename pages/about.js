@@ -27,7 +27,7 @@ const aboutContent = (
 				<li>
 					been doing web development professionaly for a couple years - see my <ContentLinkText href='/resume.pdf' name='resume' />.
 				</li>
-				<li>i enjoy html, css, javascript, react.js (with next.js) and node.js.</li>
+				<li>i enjoy web dev tech including javascript, react.js (with next.js) and node.js.</li>
 				<li>i love editing in vscode with vim keybindings.</li>
 				<li>check out my <ContentLinkText href='/portfolio' name='portfolio' />.</li>
 			</ul>
@@ -45,7 +45,7 @@ const aboutContent = (
 			<ul>
 				<li>i've been to 43/50 states in the united states.</li>
 				<li>i lived in paraguay for 2 years.</li>
-				<li>looking to move internationally once covid mellows out.</li>
+				<li>i currently live in south harlem, new york city.</li>
 			</ul>
 		</Content>
 	</>

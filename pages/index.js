@@ -8,7 +8,7 @@ const indexContent = (
 		<Header />
 		<Content>
 			<h2>hey, i&apos;m j.d.</h2>
-			<p>6&apos;9&quot; full stack javascript developer, avid traveler. working remotely, currently in utah.</p>
+			<p>6&apos;9&quot; full stack javascript developer. working remotely, currently in new york city.</p>
 			<Img
 				src='/IMG_0992.jpg'
 				alt='hiking underneath highway 87 on the arizona trail'
