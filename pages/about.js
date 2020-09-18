@@ -7,7 +7,7 @@ const aboutContent = (
 	<>
 		<Header />
 		<Content>
-			<h2>about</h2>
+			<h1>about</h1>
 			<p>
 				my name is j.d.
 			</p>

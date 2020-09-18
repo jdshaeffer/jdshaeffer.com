@@ -6,7 +6,12 @@ const PortfolioIndex = () => {
 		<>
 			<Header />
 			<Content>
-				<h2>portfolio</h2>
+				<h1>portfolio</h1>
+				<h2>!!! under construction !!!</h2>
+				<p>
+					come back soon for tidbits about my personal projects and open
+					source contributions, i promise it'll be cool
+				</p>
 			</Content>
 		</>
 	);
