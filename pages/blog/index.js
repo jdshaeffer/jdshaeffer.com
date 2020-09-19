@@ -18,19 +18,6 @@ const BlogIndex = () => {
 	// 	}
 	// ];
 
-	// return (
-	// 	<>
-	// 		<Header />
-	// 		<Content>
-	// 			<h1>blog</h1>
-	// 			{entries.map(entry => (
-	// 				<h2 key={entry.id}>
-	// 					<LinkText href={`/blog/${entry.id}`} name={entry.title} />
-	// 				</h2>
-	// 			))}
-	// 		</Content>
-	// 	</>
-	// );
 	return (
 		<>
 			<Header />
@@ -43,7 +30,7 @@ const BlogIndex = () => {
 				</p>
 			</Content>
 		</>
-	)
+	);
 };
 
 export default BlogIndex;
