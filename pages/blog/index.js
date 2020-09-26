@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import Content from '../../components/Content';
+import { Content } from '../../components/Content';
 import { LinkText } from '../../components/LinkComponents';
 
 const BlogIndex = () => {
@@ -22,8 +22,10 @@ const BlogIndex = () => {
 		<>
 			<Header />
 			<Content>
-				<h1>blog</h1>
-				<h2>!!! under construction !!!</h2>
+				<div style={{marginBottom: '100px'}}>
+					<h1 style={{fontSize: '40px'}}>blog</h1>
+					<h2>!!! under construction !!!</h2>
+				</div>
 				<p>
 					come back soon for cool articles about my life, ponderings, and
 					interesting tech opinions and learnings, i promise it'll be cool

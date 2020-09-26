@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Content from '../components/Content';
+import { Content } from '../components/Content';
 import Img from '../components/Img';
 import { ContentLinkText } from '../components/LinkComponents';
 
@@ -7,7 +7,7 @@ const aboutContent = (
 	<>
 		<Header />
 		<Content>
-			<h1>about</h1>
+			<h1 style={{fontSize: '40px'}}>about</h1>
 			<p>
 				my name is j.d.
 			</p>
@@ -16,14 +16,14 @@ const aboutContent = (
 				alt='portrait at grand canyon'
 			/>
 			<ul>
-				<li>i grew up in phoenix, az.</li>
+				<li>grew up in phoenix, az.</li>
 				<li>served a 2-year mission for my church in asuncion, paraguay.</li>
 				<li>thru-hiked the appalachian trail.</li>
 				<li>graduated from asu with a bs in computer science.</li>
 			</ul>
 			<h2>coding</h2>
 			<ul>
-				<li>i started in high school where i made text-based adventure games in java.</li>
+				<li>started in high school where i made text-based adventure games in java.</li>
 				<li>
 					been doing web development professionaly for a couple years - see my <ContentLinkText href='/resume.pdf' name='resume' />.
 				</li>
@@ -43,9 +43,9 @@ const aboutContent = (
 			</ul>
 			<h2>travel</h2>
 			<ul>
-				<li>i've been to 43/50 states in the united states.</li>
-				<li>i lived in paraguay for 2 years.</li>
-				<li>i currently live in south harlem, new york city.</li>
+				<li>been to 43/50 states in the united states.</li>
+				<li>lived in paraguay for 2 years.</li>
+				<li>currently in south harlem, new york city.</li>
 			</ul>
 		</Content>
 	</>

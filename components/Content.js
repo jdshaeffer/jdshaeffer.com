@@ -5,6 +5,7 @@ const ContentWrapper = styled.div`
 	color: #FAE0C5;
   font-size: ${props => props.fontSize || '18px'};
   margin-top: 100px;
+  margin-bottom: 100px;
 `;
 
 // width should be 90% at smaller screens underneath below width
@@ -16,7 +17,7 @@ const ContentChild = styled.div`
 const Content = props => {
 	return (
 		<ContentWrapper>
-			<ContentChild>
+			<ContentChild >
 				{props.children}
 			</ContentChild>
 		</ContentWrapper>
@@ -27,4 +28,4 @@ Content.propTypes = {
 	children: PropTypes.any
 };
 
-export default Content;
+export { Content, ContentWrapper };

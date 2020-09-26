@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Content from '../components/Content';
+import { Content } from '../components/Content';
 import { ContentLinkText } from '../components/LinkComponents';
 import Img from '../components/Img';
 
@@ -8,10 +8,10 @@ const indexContent = (
 		<Header />
 		<Content>
 			<h1>hey, i&apos;m j.d.</h1>
-			<p>6&apos;9&quot; full stack javascript developer. working remotely, currently in new york city.</p>
+			<p>full stack javascript developer. working remotely, currently in new york city.</p>
 			<Img
-				src='/IMG_0992.jpg'
-				alt='hiking underneath highway 87 on the arizona trail'
+				src='/weddingPic.JPG'
+				alt='cheesin'
 			/>
 			<p>i&apos;m glad you&apos;re here, stay as long as you like.</p>
 			<p>
