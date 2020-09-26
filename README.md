@@ -1,1 +1,1 @@
-my new personal site - static rendered next.js, styled-components, material-ui, mongodb
+my personal site/blog/portfolio - static rendered next.js, styled-components, material-ui, whole lotta love
