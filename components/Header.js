@@ -22,6 +22,9 @@ const Header = () => (
 				<LinkText href='/portfolio' name='portfolio' />
 			</Typography>
 			<Typography variant='h6'>
+				<LinkText href='/contact' name='contact' />
+			</Typography>
+			<Typography variant='h6'>
 				<LinkText href='/resume.pdf' name='resume' />
 			</Typography>
 		</Toolbar>

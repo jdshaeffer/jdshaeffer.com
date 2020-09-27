@@ -7,7 +7,7 @@ const indexContent = (
 	<>
 		<Header />
 		<Content>
-			<h1>hey, i&apos;m j.d.</h1>
+			<h1>hi, i&apos;m j.d.</h1>
 			<p>full stack javascript developer. working remotely, currently in new york city.</p>
 			<Img
 				src='/weddingPic.JPG'

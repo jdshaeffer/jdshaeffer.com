@@ -1,22 +1,13 @@
+import Link from 'next/link';
 import Header from '../../components/Header';
 import { Content } from '../../components/Content';
-import { LinkText } from '../../components/LinkComponents';
+import BlogCard from '../../components/BlogCard';
 
 const BlogIndex = () => {
-	// let entries = [
-	// 	{
-	// 		title: 'entry 0',
-	// 		id: 0
-	// 	},
-	// 	{
-	// 		title: 'entry 1',
-	// 		id: 1
-	// 	},
-	// 	{
-	// 		title: 'entry 2',
-	// 		id: 2
-	// 	}
-	// ];
+	const img = 'https://lh3.googleusercontent.com/ODKcbyOYJv6DwiY--mzgCpMqWdMomNOYWBFM5Gu3LhliQcj2yF5V2CzSOBIp-M38rBy8sCh_y1z11jAYo8VVwYg1GzmOjKnmqSzdJD0EUIFmIxX7fYZtwVGsSEfqG4gTWBFgnXP8ag=w2400'
+	const imgAlt = ''
+	const title = 'How I Got Into Coding'
+	const description = 'TL;DR Daft Punk'
 
 	return (
 		<>
@@ -24,12 +15,14 @@ const BlogIndex = () => {
 			<Content>
 				<div style={{marginBottom: '100px'}}>
 					<h1 style={{fontSize: '40px'}}>blog</h1>
-					<h2>!!! under construction !!!</h2>
+					<h2>my takes on tech, my interests, and life. enjoy.</h2>
 				</div>
-				<p>
-					come back soon for cool articles about my life, ponderings, and
-					interesting tech opinions and learnings, i promise it'll be cool
-				</p>
+				{/* put all article previews here */}
+				<Link href='/blog/0'>
+					<a style={{color: '#FAE0C5'}}>
+						<BlogCard title={title} description={description} alt={imgAlt} src={img} />
+					</a>
+				</Link>
 			</Content>
 		</>
 	);
