@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import { Content } from '../components/Content';
 import { ContentLinkText } from '../components/LinkComponents';
 import Img from '../components/Img';
-import FunFact from '../components/FunFact';
 
 const indexContent = (
 	<>
@@ -20,7 +19,6 @@ const indexContent = (
 				read my <ContentLinkText href='/blog' name='blog' />,
 				or take a look at my <ContentLinkText href='/portfolio' name='portfolio' />.
 			</p>
-			<FunFact />
 		</Content>
 	</>
 );
