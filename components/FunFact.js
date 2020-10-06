@@ -1,45 +1,47 @@
 import { useState, useEffect } from 'react';
 
 const FunFact = () => {
-  const [fact, setFact] = useState('')
   const [suffix, setSuffix] = useState('')
+  const [factObject, setFactObject] = useState({})
+
+  const url = process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000/api/fact'
+    : 'https://jdshaeffer.com/api/fact'
 
   const months = [
     'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
     'september', 'october', 'november', 'december'
   ];
-  const month = new Date().getMonth();
-  const day = new Date().getDate();
 
   useEffect(() => {
-    if (day === 1) {
-      setSuffix('st')
-    } else if (day === 2) {
-      setSuffix('nd')
-    } else if (day === 3) {
-      setSuffix('rd')
-    } else {
-      setSuffix('th')
-    }
-  }, [])
-
-  useEffect(() => {
-    (async () => { 
+    (async () => {
       try {
-        const res = await fetch(`http://numbersapi.com/${month+1}/${day}/date`)
-        const text = await res.text()
-        setFact(text)
+        const res = await fetch(url)
+        const json = await res.json()
+        setFactObject(json)
       } catch (e) {
         console.log(e)
       }
     })()
   }, [])
 
+  useEffect(() => {
+    if (factObject.day === 1) {
+      setSuffix('st')
+    } else if (factObject.day === 2) {
+      setSuffix('nd')
+    } else if (factObject.day === 3) {
+      setSuffix('rd')
+    } else {
+      setSuffix('th')
+    }
+  }, [])
+
   return (
     <>
       <br />
-      <p>today is {months[month]} {day}{suffix}!</p>
-      <p>rando fact: {fact.toLocaleLowerCase()}</p>
+      <p>today is {months[factObject.month]} {factObject.day}{suffix}!</p>
+      <p>rando fact: {factObject.fact.toLocaleLowerCase()}</p>
     </>
   );
 }
