@@ -24,7 +24,7 @@ const PortfolioIndex = () => {
 								/>
 							</a>
 						</Grid>
-						<Grid item xs={6}>
+						<Grid item xs={6} style={{marginBottom: '100px'}}>
 							<h2>Say Their Names</h2>
 							<p>Around the height of the BLM protests in June 2020 began an
 							open source project whose goal was to provide a mobile and web
@@ -38,7 +38,7 @@ const PortfolioIndex = () => {
 							>here</a> to see
 							the project's code.</p>
 						</Grid>
-						<Grid item xs={6}>
+						<Grid item xs={6} style={{marginBottom: '100px'}}>
 							<h2>NASA Psyche Meteorite Image Analysis System</h2>
 							<p>Senior capstone project at ASU along with my buddies Kohl
 							Stark, Michael St. Onge, and Jacob Peters. We developed a system
@@ -66,7 +66,7 @@ const PortfolioIndex = () => {
 								/>
 							</a>
 						</Grid>
-						<Grid item xs={6}>
+						<Grid item xs={6} style={{marginBottom: '100px'}}>
 							<h2>rando-scrip</h2>
 							<p>'rando-scrip' was a small statistical experiment where I was
 							curious about the weight distribution behind the Latter-day Saint
@@ -74,7 +74,7 @@ const PortfolioIndex = () => {
 							sampling and proved to be a productive use of finding true
 							weighted random numbers in JavaScript.</p>
 						</Grid>
-						<Grid item xs={6}>
+						<Grid item xs={6} style={{marginBottom: '100px'}}>
 							<h2>dunnet-solver</h2>
 							<p>'dunnet-solver' reflects my love for text-based adventure
 							games as well as shell scripting. It took me 3ish years of

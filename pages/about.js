@@ -16,10 +16,11 @@ const aboutContent = (
 				alt='portrait at grand canyon'
 			/>
 			<ul>
-				<li>grew up in phoenix, az.</li>
-				<li>served a 2-year mission for my church in asuncion, paraguay.</li>
-				<li>thru-hiked the appalachian trail.</li>
-				<li>graduated from asu with a bs in computer science.</li>
+				<li>Grew up in Phoenix, AZ</li>
+				<li>Served a 2-year mission for The Church of Jesus Christ of Latter-day Saints in Asuncion, Paraguay</li>
+				<li>Thru-hiked the Appalachian Trail</li>
+				<li>Graduated from ASU with a BS in computer science</li>
+				<li>Currently working as a JavaScript full stack developer for a small team (Vue, Node, MySQL, AWS/Azure, etc.)</li>
 			</ul>
 			<h2>coding</h2>
 			<ul>
@@ -31,21 +32,16 @@ const aboutContent = (
 				<li>i love editing in vscode with vim keybindings.</li>
 				<li>check out my <ContentLinkText href='/portfolio' name='portfolio' />.</li>
 			</ul>
-			<h2>hiking</h2>
+			<h2>hiking & running</h2>
 			<Img
 				src='/katahdin.JPG'
 				alt='summit of mount katahdin'
 			/>
 			<ul>
 				<li>2016-2017 sections of the pacific crest trail.</li>
-				<li>2018 appalachian trail - 2190 miles in 103 days.</li>
-				<li>2019 sections of the arizona trail.</li>
-			</ul>
-			<h2>travel</h2>
-			<ul>
-				<li>been to 43/50 states in the united states.</li>
-				<li>lived in paraguay for 2 years.</li>
-				<li>currently in south harlem, new york city.</li>
+				<li>2018 appalachian trail - 2190 miles - 103 days.</li>
+				<li>2019 mcdowell mountain frenzy 50k - 6 hr 8 min.</li>
+				<li>2020 sections of the arizona trail.</li>
 			</ul>
 		</Content>
 	</>
