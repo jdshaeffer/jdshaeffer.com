@@ -5,8 +5,11 @@ import Img from '../components/Img';
 
 const indexContent = (
 	<>
-		<Header />
+		{/* <Header /> */}
 		<Content>
+			leaving this page intentionally blank for now, will return
+		</Content>
+		{/* <Content>
 			<h1>Hi, I&apos;m J.D.</h1>
 			<p>Full stack JavaScript developer. Working remotely, currently in New York City.</p>
 			<Img
@@ -19,7 +22,7 @@ const indexContent = (
 				read my <ContentLinkText href='/blog' name='blog' />,
 				or take a look at my <ContentLinkText href='/portfolio' name='portfolio' />.
 			</p>
-		</Content>
+		</Content> */}
 	</>
 );
 
