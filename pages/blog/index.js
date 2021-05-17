@@ -11,19 +11,22 @@ const BlogIndex = () => {
 
 	return (
 		<>
-			<Header />
+      <Content>
+        leaving this page intentionally blank for now, will return
+      </Content>
+			{/* <Header />
 			<Content>
 				<div style={{marginBottom: '100px'}}>
 					<h1 style={{fontSize: '40px'}}>blog</h1>
 					<h2>my takes on tech, my interests, and life. enjoy.</h2>
-				</div>
+				</div> */}
 				{/* put all article previews here */}
-				<Link href='/blog/0'>
+				{/* <Link href='/blog/0'>
 					<a style={{color: '#FAE0C5'}}>
 						<BlogCard title={title} description={description} alt={imgAlt} src={img} />
 					</a>
 				</Link>
-			</Content>
+			</Content> */}
 		</>
 	);
 };

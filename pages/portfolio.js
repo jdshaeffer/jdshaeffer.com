@@ -6,7 +6,10 @@ import Img from '../components/Img';
 const PortfolioIndex = () => {
 	return (
 		<>
-			<Header />
+			<Content>
+				leaving this page intentionally blank for now, will return
+			</Content>
+			{/* <Header />
 			<ContentWrapper>
 				<div style={{width: '800px', margin: '0 auto', marginBottom: '100px'}}>
 					<h1 style={{fontSize: '40px'}}>portfolio</h1>
@@ -96,7 +99,7 @@ const PortfolioIndex = () => {
 						</Grid>
 					</Grid>
 				</div>
-			</ContentWrapper>
+			</ContentWrapper> */}
 		</>
 	);
 };

@@ -5,7 +5,10 @@ import { ContentLinkText } from '../components/LinkComponents';
 
 const aboutContent = (
 	<>
-		<Header />
+		<Content>
+			leaving this page intentionally blank for now, will return
+		</Content>
+		{/* <Header />
 		<Content>
 			<h1 style={{fontSize: '40px'}}>about</h1>
 			<p>
@@ -43,7 +46,7 @@ const aboutContent = (
 				<li>2019 mcdowell mountain frenzy 50k - 6 hr 8 min.</li>
 				<li>2020 sections of the arizona trail.</li>
 			</ul>
-		</Content>
+		</Content> */}
 	</>
 );
 
