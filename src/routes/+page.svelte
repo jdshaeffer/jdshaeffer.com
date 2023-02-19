@@ -1,7 +1,7 @@
 <main>
   <div class="app">
     <h2>JD Shaeffer</h2>
-    <small>Software Engineer at Butterfly Network, Inc.</small>
+    <small>Sr. Software Engineer at Butterfly Network, Inc.</small>
     <small>
       Find me on <a href="https://github.com/jdshaeffer/">GitHub</a> or
       <a href="https://www.linkedin.com/in/jd-s-0b5751132/">LinkedIn</a>.
@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     font-family: monospace;
+    background-color: #282c34;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
