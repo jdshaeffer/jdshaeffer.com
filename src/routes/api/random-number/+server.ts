@@ -1,9 +1,9 @@
-import { error } from "@sveltejs/kit";
-import type { RequestHandler } from "./$types";
+import { error } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
 
 export const GET = (({ url }) => {
-	const min = +(url.searchParams.get('min') ?? 0)
-	const max = +(url.searchParams.get('max') ?? 1)
+	const min = +(url.searchParams.get('min') ?? 0);
+	const max = +(url.searchParams.get('max') ?? 1);
 	const d = max - min;
 
 	if (isNaN(d) || d < 0) {
@@ -12,5 +12,5 @@ export const GET = (({ url }) => {
 
 	const random = min + Math.random() * d;
 
-	return new Response(String(random))
+	return new Response(String(random));
 }) satisfies RequestHandler;
