@@ -1,3 +1,6 @@
 {
-	"/": []
+	"/": [],
+	"/api/random-number": [
+		"src/routes/api/random-number/+server.ts"
+	]
 }
