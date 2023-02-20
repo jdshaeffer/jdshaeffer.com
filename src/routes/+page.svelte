@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { page } from '$app/stores';
 	import Account from './Account.svelte';
 	import Auth from './Auth.svelte';
@@ -13,9 +13,9 @@
 	<Auth />
 {:else}
 	<Account session={$page.data.session} />
-{/if}
+{/if} -->
 
-<!-- <main>
+<main>
 	<div class="app">
 		<h2>JD Shaeffer</h2>
 		<small>Sr. Software Engineer at Butterfly Network, Inc.</small>
@@ -63,4 +63,4 @@
 	a:visited {
 		color: white;
 	}
-</style> -->
+</style>
