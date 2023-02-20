@@ -1,5 +1,10 @@
 {
-	"/": [],
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
 	"/api/random-number": [
 		"src/routes/api/random-number/+server.ts"
 	]
