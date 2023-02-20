@@ -26,9 +26,6 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const SUPABASE_SERVICE_ROLE_KEY: string;
-	export const NEXT_PUBLIC_SUPABASE_URL: string;
-	export const NEXT_PUBLIC_SUPABASE_ANON_KEY: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -120,9 +117,6 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		SUPABASE_SERVICE_ROLE_KEY: string;
-		NEXT_PUBLIC_SUPABASE_URL: string;
-		NEXT_PUBLIC_SUPABASE_ANON_KEY: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
