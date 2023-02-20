@@ -34,6 +34,7 @@
 	<div class="col-6 form-widget">
 		<h1 class="header">Supabase + SvelteKit</h1>
 		<p class="description">Sign in via magic link with your email below</p>
+		<p>env: {process.env.NODE_ENV}</p>
 		<div>
 			<input class="inputField" type="email" placeholder="Your email" bind:value={email} />
 		</div>
