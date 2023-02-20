@@ -12,9 +12,9 @@
 				email,
 				options: {
 					emailRedirectTo:
-						process.env.NODE_ENV === 'development'
-							? 'http://localhost:5173/'
-							: 'https://jdshaeffer.com/'
+						process?.env?.NEXT_PUBLIC_SITE_URL ??
+						process?.env?.NEXT_PUBLIC_VERCEL_URL ??
+						'http://localhost:5173/'
 				}
 			});
 			console.log(error);
