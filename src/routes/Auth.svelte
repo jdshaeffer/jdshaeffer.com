@@ -35,6 +35,13 @@
 		<h1 class="header">Supabase + SvelteKit</h1>
 		<p class="description">Sign in via magic link with your email below</p>
 		<p>env: {process.env.NODE_ENV}</p>
+		<p>site_url: {process.env.NEXT_PUBLIC_SITE_URL}</p>
+		<p>vercel_url: {process.env.NEXT_PUBLIC_VERCEL_URL}</p>
+		<p>
+			manual_url: {process.env.NODE_ENV === 'production'
+				? 'https://jdshaeffer.com/'
+				: 'http://localhost:5173'}
+		</p>
 		<div>
 			<input class="inputField" type="email" placeholder="Your email" bind:value={email} />
 		</div>
