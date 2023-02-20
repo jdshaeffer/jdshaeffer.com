@@ -3,6 +3,8 @@
 
 	let loading = false;
 	let email: string;
+	const redirectUrl =
+		process.env.NODE_ENV === 'production' ? 'https://jdshaeffer.com/' : 'http://localhost:5173';
 
 	const handleLogin = async () => {
 		console.log('handling login...');
@@ -11,10 +13,7 @@
 			const { error } = await supabase.auth.signInWithOtp({
 				email,
 				options: {
-					emailRedirectTo:
-						process.env.NEXT_PUBLIC_SITE_URL ??
-						process.env.NEXT_PUBLIC_VERCEL_URL ??
-						'http://localhost:5173/'
+					emailRedirectTo: redirectUrl
 				}
 			});
 			console.log(error);
