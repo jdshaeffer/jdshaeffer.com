@@ -3,8 +3,16 @@
 
 	let loading = false;
 	let email: string;
-	const redirectUrl =
-		process.env.NODE_ENV === 'production' ? 'https://jdshaeffer.com/' : 'http://localhost:5173';
+
+	const getURL = () => {
+		let url =
+			process?.env?.NEXT_PUBLIC_SITE_URL ??
+			process?.env?.NEXT_PUBLIC_VERCEL_URL ??
+			'http://localhost:5173/';
+		url = url.includes('http') ? url : `https://${url}`;
+		url = url.charAt(url.length - 1) === '/' ? url : `${url}/`;
+		return url;
+	};
 
 	const handleLogin = async () => {
 		console.log('handling login...');
@@ -13,7 +21,7 @@
 			const { error } = await supabase.auth.signInWithOtp({
 				email,
 				options: {
-					emailRedirectTo: redirectUrl
+					emailRedirectTo: getURL()
 				}
 			});
 			console.log(error);
@@ -33,14 +41,6 @@
 	<div class="col-6 form-widget">
 		<h1 class="header">Supabase + SvelteKit</h1>
 		<p class="description">Sign in via magic link with your email below</p>
-		<p>env: {process.env.NODE_ENV}</p>
-		<p>site_url: {process.env.NEXT_PUBLIC_SITE_URL}</p>
-		<p>vercel_url: {process.env.NEXT_PUBLIC_VERCEL_URL}</p>
-		<p>
-			manual_url: {process.env.NODE_ENV === 'production'
-				? 'https://jdshaeffer.com/'
-				: 'http://localhost:5173'}
-		</p>
 		<div>
 			<input class="inputField" type="email" placeholder="Your email" bind:value={email} />
 		</div>
