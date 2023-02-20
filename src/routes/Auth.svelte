@@ -8,7 +8,15 @@
 		console.log('handling login...');
 		try {
 			loading = true;
-			const { error } = await supabase.auth.signInWithOtp({ email });
+			const { error } = await supabase.auth.signInWithOtp({
+				email,
+				options: {
+					emailRedirectTo:
+						process.env.NODE_ENV === 'development'
+							? 'http://localhost:5173/'
+							: 'https://jdshaeffer.com/'
+				}
+			});
 			console.log(error);
 			if (error) throw error;
 			alert('Check your email for the login link.');
