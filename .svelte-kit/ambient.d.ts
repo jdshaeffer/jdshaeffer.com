@@ -26,6 +26,8 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const NEXT_PUBLIC_SUPABASE_URL: string;
+	export const NEXT_PUBLIC_SUPABASE_ANON_KEY: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -99,8 +101,7 @@ declare module '$env/static/private' {
  * ```
  */
 declare module '$env/static/public' {
-	export const PUBLIC_SUPABASE_URL: string;
-	export const PUBLIC_SUPABASE_ANON_KEY: string;
+
 }
 
 /**
@@ -117,6 +118,8 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		NEXT_PUBLIC_SUPABASE_URL: string;
+		NEXT_PUBLIC_SUPABASE_ANON_KEY: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
@@ -195,8 +198,6 @@ declare module '$env/dynamic/private' {
  */
 declare module '$env/dynamic/public' {
 	export const env: {
-		PUBLIC_SUPABASE_URL: string;
-		PUBLIC_SUPABASE_ANON_KEY: string;
 		[key: `PUBLIC_${string}`]: string | undefined;
 	}
 }
