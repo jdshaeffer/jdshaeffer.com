@@ -4,26 +4,11 @@
 	let loading = false;
 	let email: string;
 
-	const getURL = () => {
-		let url =
-			process.env.NEXT_PUBLIC_SITE_URL ??
-			process.env.NEXT_PUBLIC_VERCEL_URL ??
-			'http://localhost:5173/';
-		url = url.includes('http') ? url : `https://${url}`;
-		url = url.charAt(url.length - 1) === '/' ? url : `${url}/`;
-		return url;
-	};
-
 	const handleLogin = async () => {
 		console.log('handling login...');
 		try {
 			loading = true;
-			const { error } = await supabase.auth.signInWithOtp({
-				email,
-				options: {
-					emailRedirectTo: getURL()
-				}
-			});
+			const { error } = await supabase.auth.signInWithOtp({ email });
 			console.log(error);
 			if (error) throw error;
 			alert('Check your email for the login link.');
